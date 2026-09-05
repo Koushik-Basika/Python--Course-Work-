@@ -1,0 +1,65 @@
+1. WHY DO WE NEED OOPS? AND REAL-TIME EXAMPLES ?
+ans OOP (Object-Oriented Programming) is needed to organize large programs using classes and objects. It makes code reusable, easy to maintain, secure, and easier to manage.
+
+Real-time examples:
+- WhatsApp: Users, chats, messages, groups, and calls can be represented as objects.
+- Amazon: Products, customers, carts, orders, and payments can be represented as objects.
+- Instagram: Users, posts, reels, stories, likes, and comments can be represented as objects.
+- Banking apps: Customers, accounts, transactions, and loans can be represented as objects.
+
+2. WHAT IS A CLASS? AND REAL-TIME EXAMPLE ?
+ans A class is a blueprint or template used to create objects. It defines the data (attributes) and functions (methods) that its objects can have.
+
+Real-time example:
+In Instagram, a User class can contain username, password, followers, and methods such as login(), follow(), and post(). Different Instagram users can be created as objects from this class.
+
+3. WHAT IS AN OBJECT? AND REAL-TIME EXAMPLE ?
+ans An object is an instance of a class. It is a real entity created using the class and contains its own data.
+
+Real-time example:
+In a shopping website, Product is a class. A Samsung phone, an iPhone, and a laptop can be individual Product objects with different names, prices, and details.
+
+4. WHAT IS ENCAPSULATION? AND REAL-TIME EXAMPLE ?
+ans Encapsulation means combining data and methods inside a class and controlling direct access to the data. It helps protect important information from unwanted changes.
+
+Real-time example:
+In a banking app, the account balance and transaction details should not be changed directly by the user. The app provides controlled options such as deposit, withdraw, and transfer. The internal account data is protected.
+
+5. WHAT IS INHERITANCE? AND REAL-TIME EXAMPLE ?
+ans Inheritance allows one class to acquire the properties and methods of another class. It helps reuse existing code.
+
+Real-time example:
+In a shopping website, a general User can have common features such as login() and logout(). An Admin can inherit these features and also have additional features such as manage_products() and manage_users().
+
+6. WHAT IS POLYMORPHISM? AND REAL-TIME EXAMPLE ?
+
+ans Polymorphism means "one thing, many forms." The same method can behave differently depending on the object.
+
+Real-time example:
+In Amazon or Flipkart, a customer can pay using UPI, credit card, debit card, or net banking. The operation is payment, but the process is different for each payment method.
+
+7. WHAT IS ABSTRACTION? AND REAL-TIME EXAMPLE ?
+ans Abstraction means hiding complex internal implementation and showing only the necessary features to the user.
+
+Real-time example:
+When you use a shopping app and click "Pay Now", you do not see the internal process such as bank verification, server communication, security checks, and transaction processing. The app hides this complexity and shows you a simple Pay Now option.
+
+
+8.Attribute and Its Types ?
+ans An attribute is a variable that belongs to a class or object and represents the data or properties of that object.
+
+There are two main types of attributes in Python:
+a.Instance Attribute – It belongs to a specific object, so different objects can have different values. It is usually defined using self.
+Example: In a shopping app, each Product object can have its own name, price, and quantity.
+b.Class Attribute – It belongs to the class and is shared by all objects of that class.
+Example: In a college app, all Student objects can share the same college_name, while each student has a different name and roll_number.
+
+9.Methods and Its Types ?
+ans A method is a function defined inside a class that performs a specific action or operation.
+There are 3 main types of methods in Python:
+a.Instance Method – Works with the data of a particular object and uses self.
+Example: In a shopping app, add_to_cart() can add a product to a particular customer's cart.
+b.Class Method – Works with class-level data and uses cls. It is created using @classmethod.
+Example: In a college app, show_college() can display the college name shared by all students.
+c.Static Method – Performs a general operation and does not depend on object or class data. It is created using @staticmethod.
+Example: In an e-commerce app, calculate_discount() can calculate a discount using only the given price and percentage.
