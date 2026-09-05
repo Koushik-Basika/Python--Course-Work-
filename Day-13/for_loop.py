@@ -1,0 +1,59 @@
+''''
+s='Python Programmming'
+for i in range(len(s)):
+    if s[i] in 'aeiouAEIOU':
+        print(i,s[i])
+'''
+'''
+l=[23,45,12,34,50,24,35,68,75,34,10]
+sum=0
+for i in range(len(l)):
+    if l[i]%2==0:
+        sum=sum+i
+        print(i,l[i])
+print(sum) 
+''' 
+'''
+n=int(input("Enter the number: "))
+fact=1
+for i in range(1,n+1):
+    fact*=i
+
+print(f"Factorial of {n} is {fact}")
+'''
+'''
+data={}
+n=int(input("Enter the no of students: "))
+max_marks=0
+for i in range(n):
+    name=input("Enter the name: ")
+    marks=int(input("Enter the marks: "))
+    if marks>max_marks:
+        max_marks=marks
+    data[name]=marks
+
+print(data)
+print("Maximum Marks: ",max_marks)
+'''
+'''
+n=int(input("Enter the no of products: "))
+total=0
+data={}
+for i in range(n):
+    product_name=input("Enter the product name: ")
+    price=int(input("Enter the price: "))
+    quanlity=int(input("Enter the quanlity: "))
+    data[product_name]={
+        'price':price,
+        'quanlity':quanlity
+    }
+    print(data)
+    total+=price*quanlity
+print(f'Total price: {total}') 
+'''   
+
+
+    
+
+    
+
